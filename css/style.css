@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  min-height: 3000px;
+  background-color: black;
+  font-family: "Rajdhani", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+section {
+  padding-top: 10rem;
+}
+
+.navbar {
+  padding: 2em 2.5em;
+  font-weight: 600;
+}
+
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link {
+  color: #ffc107;
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
+.navbar-toggler {
+  background-color: #fff758;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.navbar-toggler:hover {
+  opacity: 50%;
+}
+
+.dropdown-item {
+  color: #ffc107;
+}
+
+.crsl-img {
+  width: 70%;
+  height: 50%;
+}
+
+.navbar-toggler-icon {
+  color: orange;
+}
+
+#about {
+  margin: 20em;
+  color: white;
+}
+
+.blockquote {
+  color: #ffc107;
+}
+
+.events {
+  min-height: 800px;
+  background-color: #712275;
+}
+
+.event-text {
+  text-shadow: 2px 2px aqua;
+}
+
+.card {
+  border: 1px solid #ffc107;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.card:hover {
+  border: 1px solid aqua;
+}
+
+.card-body {
+  color: #fff758;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.card-body:hover {
+  color: aqua;
+}
+
+.contact {
+  color: black;
+  background-image: url(../img/background-img-submit.jpg);
+  min-height: 800px;
+}
